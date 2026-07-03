@@ -14,9 +14,12 @@
   }
 
   function personCard(p) {
+    var avatar = p.photo
+      ? '<img class="avatar" src="' + p.photo + '" alt="' + p.name + '">'
+      : '<div class="avatar">' + initials(p.name) + '</div>';
     return (
       '<div class="person-card">' +
-        '<div class="avatar">' + initials(p.name) + '</div>' +
+        avatar +
         '<div>' +
           '<span class="role">' + p.role + '</span>' +
           '<h3>' + p.title + ' ' + p.name + '</h3>' +
@@ -27,9 +30,12 @@
   }
 
   function facilityCard(f) {
+    var thumb = f.photo
+      ? '<img src="' + f.photo + '" alt="' + f.name + '">'
+      : (ICONS[f.icon] || '');
     return (
       '<div class="card facility-card">' +
-        '<div class="thumb">' + (ICONS[f.icon] || '') + '</div>' +
+        '<div class="thumb">' + thumb + '</div>' +
         '<h3>' + f.name + '</h3>' +
         '<p>' + f.note + '</p>' +
       '</div>'
