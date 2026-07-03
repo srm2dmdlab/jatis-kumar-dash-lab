@@ -20,7 +20,7 @@
     return (
       '<div class="person-card">' +
         avatar +
-        '<div>' +
+        '<div class="person-body">' +
           '<span class="role">' + p.role + '</span>' +
           '<h3>' + p.title + ' ' + p.name + '</h3>' +
           '<div class="joined">Joined ' + p.joined + '</div>' +

@@ -8,7 +8,6 @@
 var LAB_DATA = {
 
   phdStudents: [
-    { name: "Shaik Mohammed Abzal", title: "Mr.", role: "Ph.D. Scholar", joined: "July 4, 2019", photo: "images/shaik-mohammed-abzal.jpg" },
     { name: "Kurapati Kalyan", title: "Mr.", role: "Ph.D. Scholar", joined: "March 17, 2020", photo: "images/kurapati-kalyan.jpg" },
     { name: "Sai Lakshmi Janga", title: "Miss", role: "Ph.D. Scholar", joined: "Sep 21, 2020", photo: "images/sai-lakshmi-janga.jpg" },
     { name: "Rasik Manve", title: "Mr.", role: "Ph.D. Scholar", joined: "December 13, 2024", photo: "images/rasik-manve.jpg" },
@@ -17,7 +16,7 @@ var LAB_DATA = {
   ],
 
   postdocs: [
-    { name: "Imran Uddin", title: "Dr.", role: "Postdoctoral Fellow", joined: "Sep 29, 2021" }
+    { name: "Shaik Mohammed Abzal", title: "Dr.", role: "Postdoctoral Fellow", joined: "July 4, 2019", photo: "images/shaik-mohammed-abzal.jpg" }
   ],
 
   facilities: [
