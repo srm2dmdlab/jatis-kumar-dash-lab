@@ -8,9 +8,12 @@
 var LAB_DATA = {
 
   phdStudents: [
-    { name: "Shaik Mohammed Abzal", title: "Mr.", role: "Ph.D. Scholar", joined: "July 4, 2019" },
-    { name: "Kurapati Kalyan", title: "Mr.", role: "Ph.D. Scholar", joined: "March 17, 2020" },
-    { name: "Sai Lakshmi Janga", title: "Miss", role: "Ph.D. Scholar", joined: "Sep 21, 2020" }
+    { name: "Shaik Mohammed Abzal", title: "Mr.", role: "Ph.D. Scholar", joined: "July 4, 2019", photo: "images/shaik-mohammed-abzal.jpg" },
+    { name: "Kurapati Kalyan", title: "Mr.", role: "Ph.D. Scholar", joined: "March 17, 2020", photo: "images/kurapati-kalyan.jpg" },
+    { name: "Sai Lakshmi Janga", title: "Miss", role: "Ph.D. Scholar", joined: "Sep 21, 2020", photo: "images/sai-lakshmi-janga.jpg" },
+    { name: "Rasik Manve", title: "Mr.", role: "Ph.D. Scholar", joined: "December 13, 2024", photo: "images/rasik-manve.jpg" },
+    { name: "Jyotiranjan Jena", title: "Mr.", role: "Ph.D. Scholar", joined: "January 8, 2026", photo: "images/jyotiranjan-jena.jpg" },
+    { name: "Ranjana SR", title: "Ms.", role: "Ph.D. Scholar", joined: "January 8, 2026", photo: "images/ranjana-sr.jpg" }
   ],
 
   postdocs: [
@@ -21,22 +24,26 @@ var LAB_DATA = {
     {
       name: "DC Magnetron Sputtering cum Thermal Evaporator",
       note: "Physical vapor deposition of thin films and layered materials under high vacuum.",
-      icon: "sputter"
+      icon: "sputter",
+      photo: "images/facility-sputtering.jpg"
     },
     {
       name: "Low Temperature Electrical Probe Station",
       note: "I–V and device-level electrical characterization down to low temperatures.",
-      icon: "probe"
+      icon: "probe",
+      photo: "images/facility-probe-station.jpg"
     },
     {
       name: "Grazing Incidence X-Ray Diffraction (GIXRD)",
       note: "Structure and texture analysis of thin films and layered crystals.",
-      icon: "xrd"
+      icon: "xrd",
+      photo: "images/facility-gixrd.jpg"
     },
     {
       name: "Low Pressure CVD (LPCVD) Furnace",
       note: "Programmable quartz-tube furnace for chemical vapor growth of 2D materials.",
-      icon: "furnace"
+      icon: "furnace",
+      photo: "images/facility-lpcvd-furnace.jpg"
     }
   ],
 
